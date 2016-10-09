@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.choosemuse.example.libmuse.MainActivity" >
+
+    <item
+        android:id="@+id/connect"
+        android:showAsAction="ifRoom"
+        android:title="Connect"/>
+    <item
+        android:id="@+id/refresh"
+        android:showAsAction="never"
+        android:title="Reset Connection"/>
+    <item
+        android:id="@+id/disconnect"
+        android:showAsAction="never"
+        android:title="Disconnect"/>
+</menu>
